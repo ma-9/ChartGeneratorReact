@@ -9,6 +9,21 @@ class Charts extends Component {
   };
 
   render() {
+    const months = [
+      'Jan',
+      'Feb',
+      'Mar',
+      'Apr',
+      'May',
+      'June',
+      'July',
+      'Aug',
+      'Sep',
+      'Oct',
+      'Nov',
+      'Dec'
+    ];
+
     const { date } = this.props;
 
     this.state.FullDate.push(new Date(date));
@@ -18,14 +33,20 @@ class Charts extends Component {
     let FirstDay = this.state.FullDate[0];
     let LastDay = this.state.FullDate[this.state.FullDate.length - 1];
 
-    let diffTime = Math.abs(LastDay.getTime() - FirstDay.getTime());
+    var oldDate = this.state.FullDate[0];
+
+    var DaTe = oldDate.getDate();
+    var MoNtH = months[oldDate.getMonth()];
+    var YeAr = oldDate.getFullYear();
+
+    var storedDate = new Date(`${MoNtH} ${DaTe}, ${YeAr}`);
+
+    let diffTime = Math.abs(LastDay.getTime() - storedDate.getTime());
     let Difference_In_Days = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
     let lineWidth = 1000;
 
-    let Differ = Difference_In_Days + 1;
-
-    let DayDistance = lineWidth / Differ;
+    let DayDistance = lineWidth / Difference_In_Days;
 
     const dDistance = DayDistance;
     let dDD = 0;
@@ -35,6 +56,9 @@ class Charts extends Component {
       lineArray.push(dDD);
       dDD = dDD + dDistance;
     }
+
+    console.log('TESTE', Difference_In_Days);
+
     return (
       <div>
         <svg className='graph'>

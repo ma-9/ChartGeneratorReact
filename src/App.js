@@ -49,8 +49,10 @@ class App extends Component {
             name='Date'
             required
           ></TextField>
-          <Button variant='contained' type='submit'>
-            Add Date
+          <br />
+          <br />
+          <Button color='primary' variant='contained' type='submit'>
+            Add to Graph
           </Button>
         </form>
 
