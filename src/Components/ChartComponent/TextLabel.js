@@ -29,8 +29,6 @@ class TextLabel extends Component {
     let diffTime = Math.abs(date.getTime() - storedDate.getTime());
     let diffDay = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-    console.log('TEXTLABEL', diffDay);
-
     let x = diffDay * DayDistance;
 
     return (
@@ -49,23 +47,3 @@ class TextLabel extends Component {
 }
 
 export default TextLabel;
-
-// var Difference_In_Time = date.getTime() - FirstDay.getTime();
-
-// var CurrentDay = Difference_In_Time / (1000 * 3600 * 24);
-// let RoundedFigureOfCurrentDay = Math.ceil(CurrentDay);
-
-// var diffDay;
-// var diffTime;
-
-// let normalDayDistance = DayDistance;
-
-// if (index !== FullDate[0]) {
-//   if (date.getDate() === FullDate[index].getDate()) {
-//     diffTime = Math.abs(storedDate.getTime() - FirstDay.getTime());
-//     diffDay = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-//   } else {
-//     diffTime = Math.abs(storedDate.getTime() - FirstDay.getTime());
-//     diffDay = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-//   }
-// }

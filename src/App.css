@@ -1,34 +1,15 @@
-body {
-  font-family: 'Open Sans', sans-serif;
+.homeDiv {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: auto;
 }
-
-.graph .labels.x-labels {
-  text-anchor: start;
+.homeDiv h2 {
+  font-size: 5vw;
 }
-
-.graph {
-  height: 700px;
-  width: 120rem;
-}
-
-.graph .grid {
-  stroke: rgb(0, 0, 0);
-  stroke-dasharray: 0;
-  stroke-width: 1;
-}
-
-.labels {
-  font-size: 0.8rem;
-}
-
-.data {
-  fill: rgb(47, 0, 255);
-  stroke: rgb(156, 7, 175);
-  stroke-width: 3;
-}
-
-.lines {
-  fill: black;
-  stroke: grey;
-  stroke-width: 3;
+.chart {
+  display: block;
+  text-align: center;
+  margin-top: 5rem;
 }

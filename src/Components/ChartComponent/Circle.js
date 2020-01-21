@@ -44,37 +44,8 @@ class Circle extends Component {
 
     let x = DayDistance * totalConversion;
 
-    // console.log('CIRCLE', diffDay);
-
     return <circle cx={x} cy={cy} data-value={date} r={r}></circle>;
   }
 }
 
 export default Circle;
-
-// let tillTodaySecond = RoundedFigureOfCurrentDay * 86400;
-
-// let secondToTilDays = tillTodaySecond / 86400;
-
-// if (CurrentDay === 0) {
-//   CurrentDay = 1;
-// }
-
-// if (index !== FullDate[0]) {
-//   if (date.getDate() === FullDate[index].getDate()) {
-//     diffTime = Math.abs(date.getTime() - FirstDay.getTime());
-//     diffDay = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-//   } else {
-//     diffTime = Math.abs(date.getTime() - FirstDay.getTime());
-//     diffDay = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-//   }
-// }
-
-// var diffDay;
-// var diffTime;
-
-// let StartDay = FirstDay.getDate();
-// let today = date.getDate();
-// let diffTime = Math.abs(date - FirstDay);
-// let diffDay = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-// let CurrentDay = today - StartDay;
