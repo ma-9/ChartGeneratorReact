@@ -60,7 +60,7 @@ class App extends Component {
               <ChartMaker date={this.state.date} />
               <Snackbar
                 open={this.state.open}
-                autoHideDuration='3000'
+                autoHideDuration={3000}
                 onClose={this.handleClose}
               >
                 <Alert severity='success' onClose={this.handleClose}>
