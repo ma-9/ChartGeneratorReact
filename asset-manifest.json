@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ChartGeneratorReact/static/css/main.b504eec6.chunk.css",
+    "main.js": "/ChartGeneratorReact/static/js/main.c4e93af7.chunk.js",
+    "main.js.map": "/ChartGeneratorReact/static/js/main.c4e93af7.chunk.js.map",
+    "runtime-main.js": "/ChartGeneratorReact/static/js/runtime-main.1b6112a6.js",
+    "runtime-main.js.map": "/ChartGeneratorReact/static/js/runtime-main.1b6112a6.js.map",
+    "static/js/2.6f7178cc.chunk.js": "/ChartGeneratorReact/static/js/2.6f7178cc.chunk.js",
+    "static/js/2.6f7178cc.chunk.js.map": "/ChartGeneratorReact/static/js/2.6f7178cc.chunk.js.map",
+    "index.html": "/ChartGeneratorReact/index.html",
+    "precache-manifest.e32a447f2ef9b41152b90a972a2dd859.js": "/ChartGeneratorReact/precache-manifest.e32a447f2ef9b41152b90a972a2dd859.js",
+    "service-worker.js": "/ChartGeneratorReact/service-worker.js",
+    "static/css/main.b504eec6.chunk.css.map": "/ChartGeneratorReact/static/css/main.b504eec6.chunk.css.map",
+    "static/js/2.6f7178cc.chunk.js.LICENSE": "/ChartGeneratorReact/static/js/2.6f7178cc.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b6112a6.js",
+    "static/js/2.6f7178cc.chunk.js",
+    "static/css/main.b504eec6.chunk.css",
+    "static/js/main.c4e93af7.chunk.js"
+  ]
+}
